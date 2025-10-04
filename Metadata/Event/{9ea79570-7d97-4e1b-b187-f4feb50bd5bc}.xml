@@ -61,6 +61,7 @@
 	<object class="GroupTrack" id="{8b7e2594-eb1e-4aba-b97f-4b8546ce04ad}">
 		<relationship name="modules">
 			<destination>{a7656a67-9cce-4f6c-8fc6-f2df9b4da7de}</destination>
+			<destination>{ab10276f-2710-4c73-b2b8-3e0e1a0311e1}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e7d7eb03-936e-4b00-95b2-e12bef7ce27b}</destination>
@@ -69,6 +70,7 @@
 	<object class="Timeline" id="{dd3a058b-2987-464a-803f-304686037537}">
 		<relationship name="modules">
 			<destination>{a7656a67-9cce-4f6c-8fc6-f2df9b4da7de}</destination>
+			<destination>{ab10276f-2710-4c73-b2b8-3e0e1a0311e1}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c7148967-e1f7-4f26-b5b9-352fbbb60c6f}">
@@ -107,7 +109,27 @@
 			<destination>{f69e6d41-25ca-4de0-be42-0a2bb928009e}</destination>
 		</relationship>
 	</object>
+	<object class="SoundScatterer" id="{ab10276f-2710-4c73-b2b8-3e0e1a0311e1}">
+		<property name="start">
+			<value>3.2882078961879739</value>
+		</property>
+		<property name="length">
+			<value>0.5</value>
+		</property>
+		<property name="minimumTimeBetweenSounds">
+			<value>4500</value>
+		</property>
+		<property name="maximumTimeBetweenSounds">
+			<value>9500</value>
+		</property>
+		<relationship name="sound">
+			<destination>{97290aee-a25b-4e10-ac9d-5bbe89774610}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{e7d7eb03-936e-4b00-95b2-e12bef7ce27b}">
+		<property name="volume">
+			<value>-0.5</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
@@ -159,6 +181,7 @@
 			<destination>{de35ecd0-9dc8-449b-b20d-a04732be91e3}</destination>
 		</relationship>
 	</object>
+	<object class="MultiSound" id="{97290aee-a25b-4e10-ac9d-5bbe89774610}" />
 	<object class="MixerBusEffectChain" id="{4cf4317e-0d06-4ce2-9164-10db6b08b23c}">
 		<relationship name="effects">
 			<destination>{08522d27-0a2a-46f3-8ad5-3381eb1903a4}</destination>
@@ -177,7 +200,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>0.772728145</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c77cb43f-486e-4964-ae23-54c21971967e}">
@@ -215,16 +238,16 @@
 			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>21999.9902</value>
+			<value>265.017548</value>
 		</property>
 		<property name="frequencyB">
-			<value>1049.76648</value>
+			<value>426.808716</value>
 		</property>
 		<property name="qualityA">
-			<value>4.25518036</value>
+			<value>10</value>
 		</property>
 		<property name="gainB">
-			<value>-22.5314903</value>
+			<value>-30</value>
 		</property>
 	</object>
 </objects>

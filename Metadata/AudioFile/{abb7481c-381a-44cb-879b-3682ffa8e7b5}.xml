@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{f8746fcd-b6a9-41d8-94a8-b3c40af7ab70}">
+	<object class="AudioFile" id="{abb7481c-381a-44cb-879b-3682ffa8e7b5}">
 		<property name="assetPath">
-			<value>jamuisko.mp3</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>gear1.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>16.013061224489796</value>
+			<value>1.7240816326530612</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{771fede4-2437-456d-afeb-b44ba2477689}</destination>

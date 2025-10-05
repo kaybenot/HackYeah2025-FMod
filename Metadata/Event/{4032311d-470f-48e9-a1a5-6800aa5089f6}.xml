@@ -106,7 +106,10 @@
 	<object class="MixerBusPanner" id="{af292c49-0a04-41ea-944c-4ac28cdebf2d}" />
 	<object class="MultiSound" id="{d745e481-1882-49b9-bce8-dc7584f00b3a}">
 		<property name="length">
-			<value>0.72996047756278315</value>
+			<value>1.0097786606285166</value>
+		</property>
+		<property name="volume">
+			<value>10</value>
 		</property>
 		<property name="pitch">
 			<value>-0.300000012</value>
@@ -191,10 +194,18 @@
 			<destination>{db6db6c4-bca6-4b9b-a6a4-26248862f6f6}</destination>
 			<destination>{886abf47-909c-4ae1-9ec6-ff6267585275}</destination>
 			<destination>{fecdf407-e5da-4742-8c46-ebfecbb0bf50}</destination>
+			<destination>{6838298a-4b48-4d20-9528-37ddae2af217}</destination>
 			<destination>{aafdc883-dea1-4ac9-a8df-b092b43b04de}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{87f24835-135d-400c-b078-76d40b8b1c7c}" />
+	<object class="MixerBusPanner" id="{87f24835-135d-400c-b078-76d40b8b1c7c}">
+		<property name="surroundPanDirection">
+			<value>-180</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{6f3b59a2-5117-4def-a24b-276b0ed6a257}" />
 	<object class="ThreeEQEffect" id="{db6db6c4-bca6-4b9b-a6a4-26248862f6f6}">
 		<property name="lowGain">
@@ -215,6 +226,11 @@
 	</object>
 	<object class="SpatialiserEffect" id="{886abf47-909c-4ae1-9ec6-ff6267585275}" />
 	<object class="MixerBusFader" id="{fecdf407-e5da-4742-8c46-ebfecbb0bf50}" />
+	<object class="GainEffect" id="{6838298a-4b48-4d20-9528-37ddae2af217}">
+		<property name="gain">
+			<value>6.5</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{aafdc883-dea1-4ac9-a8df-b092b43b04de}">
 		<property name="wetLevel">
 			<value>-15.5</value>

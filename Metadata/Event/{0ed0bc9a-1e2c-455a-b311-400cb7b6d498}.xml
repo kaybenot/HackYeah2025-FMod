@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{0ed0bc9a-1e2c-455a-b311-400cb7b6d498}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>emiter</value>
 		</property>
@@ -60,6 +63,9 @@
 		<property name="minimumDistance">
 			<value>0</value>
 		</property>
+		<property name="maximumDistance">
+			<value>7.5999999</value>
+		</property>
 	</object>
 	<object class="MarkerTrack" id="{fd13d0de-012a-47f9-9fdf-bf387826f84c}" />
 	<object class="GroupTrack" id="{15623a0c-dd6e-40ec-a48e-bc281e3c6120}">
@@ -72,6 +78,7 @@
 			<destination>{e7467ba0-4bdf-448d-a884-4ba920512a72}</destination>
 			<destination>{c0067901-e20c-47bd-b006-649de17f65f3}</destination>
 			<destination>{befe4b6e-e971-4246-95a6-e518fbbe6c06}</destination>
+			<destination>{f74265a0-7f0d-48b5-8984-6991e63d806b}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{2a8213a8-b040-43cc-88a4-b0272f0f5001}</destination>
@@ -87,6 +94,7 @@
 			<destination>{e7467ba0-4bdf-448d-a884-4ba920512a72}</destination>
 			<destination>{c0067901-e20c-47bd-b006-649de17f65f3}</destination>
 			<destination>{befe4b6e-e971-4246-95a6-e518fbbe6c06}</destination>
+			<destination>{f74265a0-7f0d-48b5-8984-6991e63d806b}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{087f3852-32c5-4ea1-b445-e8ca72241fbe}</destination>
@@ -110,9 +118,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{1171d7e9-2964-4ca0-8f76-3ae7995a7fe2}" />
 	<object class="CommandSound" id="{af82e3d6-8f24-4e64-8ed5-97d42ca65e4e}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -127,9 +132,6 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{218265a4-053d-42f3-8e99-5a569bceb169}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -144,14 +146,11 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{7124fdfa-70b9-4901-b71d-49d1e727a0cb}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
 		<property name="start">
-			<value>28.254967636677247</value>
+			<value>26.87635664526638</value>
 		</property>
 		<property name="length">
 			<value>2.7519696316786515</value>
@@ -161,9 +160,6 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{b2b5d56e-6b48-4126-b64a-b8a52a56f94e}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -178,9 +174,6 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{d7ed5e2f-78ee-4777-a8d6-99274a3f4d4a}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -195,9 +188,6 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{e7467ba0-4bdf-448d-a884-4ba920512a72}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -212,9 +202,6 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{c0067901-e20c-47bd-b006-649de17f65f3}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -229,9 +216,6 @@
 		</relationship>
 	</object>
 	<object class="CommandSound" id="{befe4b6e-e971-4246-95a6-e518fbbe6c06}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
 		<property name="triggerProbability">
 			<value>25</value>
 		</property>
@@ -243,6 +227,20 @@
 		</property>
 		<relationship name="commandTarget">
 			<destination>{3bc2a9d3-a125-449d-b5cd-77084f979969}</destination>
+		</relationship>
+	</object>
+	<object class="CommandSound" id="{f74265a0-7f0d-48b5-8984-6991e63d806b}">
+		<property name="triggerProbability">
+			<value>18</value>
+		</property>
+		<property name="start">
+			<value>31.006937268355898</value>
+		</property>
+		<property name="length">
+			<value>2.0469070825439957</value>
+		</property>
+		<relationship name="commandTarget">
+			<destination>{e69b18d0-00ac-4b76-bc85-ed83272991a9}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{2a8213a8-b040-43cc-88a4-b0272f0f5001}">
@@ -264,7 +262,7 @@
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>45.445121218840328</value>
+			<value>48.954312833340708</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{020b5906-d160-4435-b83a-77f00232af72}</destination>

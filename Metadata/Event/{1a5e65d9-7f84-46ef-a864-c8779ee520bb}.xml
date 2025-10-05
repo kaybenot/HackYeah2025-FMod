@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{1a5e65d9-7f84-46ef-a864-c8779ee520bb}">
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>jumpscare (uwaga)</value>
 		</property>
@@ -108,7 +111,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{544b6386-77af-4862-aa34-417446bd6eb8}">
 		<property name="volume">
-			<value>-3</value>
+			<value>-9</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -186,7 +189,7 @@
 	</object>
 	<object class="DistortionEffect" id="{c5bddb83-3bb6-4de8-a9dd-fa06b1e1c216}">
 		<property name="level">
-			<value>0.879999995</value>
+			<value>0.774999976</value>
 		</property>
 	</object>
 	<object class="LimiterEffect" id="{8efb3e01-9a2b-4c2e-85f3-badf12714b5f}">

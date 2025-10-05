@@ -4,6 +4,9 @@
 		<property name="note">
 			<value>Placeholder created via Unity</value>
 		</property>
+		<property name="color">
+			<value>Green</value>
+		</property>
 		<property name="name">
 			<value>GuardFootstep</value>
 		</property>

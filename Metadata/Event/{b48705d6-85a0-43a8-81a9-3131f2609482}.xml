@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{b48705d6-85a0-43a8-81a9-3131f2609482}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>ambience hum</value>
 		</property>
@@ -319,17 +322,20 @@
 		</property>
 	</object>
 	<object class="MultibandEqEffect" id="{a36d2567-39bb-49fe-a4b4-7034a2adc3dd}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
 		<property name="filterTypeB">
 			<value>7</value>
 		</property>
 		<property name="frequencyA">
-			<value>168.983734</value>
+			<value>387.055267</value>
 		</property>
 		<property name="frequencyB">
-			<value>52.9597054</value>
+			<value>129.082764</value>
 		</property>
 		<property name="qualityA">
-			<value>0.275942028</value>
+			<value>0.402225643</value>
 		</property>
 		<property name="gainB">
 			<value>-30</value>

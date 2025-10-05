@@ -93,7 +93,7 @@
 	<object class="MixerBusPanner" id="{019c0858-db7a-4b8d-a9e4-60dae32296e4}" />
 	<object class="MultiSound" id="{18b618ac-1d73-4724-9827-ca2183ef4b8f}">
 		<property name="length">
-			<value>0.6555755395683448</value>
+			<value>0.7080058614978515</value>
 		</property>
 		<property name="volume">
 			<value>0.5</value>
@@ -111,7 +111,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{544b6386-77af-4862-aa34-417446bd6eb8}">
 		<property name="volume">
-			<value>-9</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -170,7 +170,7 @@
 	<object class="MixerBusFader" id="{8cf2874a-cec8-4cdc-97ca-769b46bb903e}" />
 	<object class="AutomationPoint" id="{c06825c8-18c3-41c2-af36-59fe16c6cd49}">
 		<property name="position">
-			<value>0.55215827338129442</value>
+			<value>0.60458859531080111</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -181,7 +181,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ea2640bf-2cc8-4693-90fd-3d70385a17b1}">
 		<property name="position">
-			<value>0.6555755395683448</value>
+			<value>0.7080058614978515</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -206,7 +206,7 @@
 	<object class="MixerBusFader" id="{184a288f-af35-4d61-b817-0f462023312b}" />
 	<object class="SFXReverbEffect" id="{4147c48f-9992-44d2-be34-0b46ec97b701}">
 		<property name="decayTime">
-			<value>2000</value>
+			<value>2500</value>
 		</property>
 		<property name="lateDelay">
 			<value>30</value>

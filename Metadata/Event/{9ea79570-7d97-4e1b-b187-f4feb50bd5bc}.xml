@@ -167,7 +167,6 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{4cf4317e-0d06-4ce2-9164-10db6b08b23c}">
 		<relationship name="effects">
-			<destination>{08522d27-0a2a-46f3-8ad5-3381eb1903a4}</destination>
 			<destination>{421dfc77-052b-490c-8ef2-0bb4b03b947e}</destination>
 			<destination>{25af0355-bb46-4de3-9e3b-76d479e0e11b}</destination>
 			<destination>{e25b24ea-3902-4ce0-9bdc-b8e5d5891c0b}</destination>
@@ -183,7 +182,7 @@
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.772728145</value>
+			<value>0.13983205</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{c77cb43f-486e-4964-ae23-54c21971967e}">
@@ -192,26 +191,6 @@
 		</property>
 		<property name="value">
 			<value>0</value>
-		</property>
-	</object>
-	<object class="SFXReverbEffect" id="{08522d27-0a2a-46f3-8ad5-3381eb1903a4}">
-		<property name="decayTime">
-			<value>10000</value>
-		</property>
-		<property name="lateDelay">
-			<value>30</value>
-		</property>
-		<property name="HFDecayRatio">
-			<value>23</value>
-		</property>
-		<property name="highCut">
-			<value>3400</value>
-		</property>
-		<property name="earlyLateMix">
-			<value>72</value>
-		</property>
-		<property name="wetLevel">
-			<value>-7.4000001</value>
 		</property>
 	</object>
 	<object class="SpatialiserEffect" id="{421dfc77-052b-490c-8ef2-0bb4b03b947e}" />

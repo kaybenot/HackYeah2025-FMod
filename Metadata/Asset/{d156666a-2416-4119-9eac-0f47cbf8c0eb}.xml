@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="EncodableAsset" id="{d156666a-2416-4119-9eac-0f47cbf8c0eb}">
+		<property name="assetPath">
+			<value>debil mowi/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{771fede4-2437-456d-afeb-b44ba2477689}</destination>
+		</relationship>
+	</object>
+</objects>

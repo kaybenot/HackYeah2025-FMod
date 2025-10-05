@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{efca5b8c-2c8c-4fc4-b3fa-74ed8eac87bc}">
 		<property name="assetPath">
-			<value>Metal - RATTLE - Shudder Constant - Geof.wav</value>
+			<value>sfx/Metal - RATTLE - Shudder Constant - Geof.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

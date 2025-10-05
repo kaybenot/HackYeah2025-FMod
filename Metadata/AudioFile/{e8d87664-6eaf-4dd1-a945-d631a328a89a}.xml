@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{e8d87664-6eaf-4dd1-a945-d631a328a89a}">
 		<property name="assetPath">
-			<value>large gear 03 metal slow 8040.wav.wav</value>
+			<value>sfx/large gear 03 metal slow 8040.wav.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

@@ -125,7 +125,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b26828af-6d96-4a77-be67-95deee9fa172}">
 		<property name="volume">
-			<value>-21.5</value>
+			<value>-25</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -240,16 +240,19 @@
 	<object class="MixerBusFader" id="{86dd6c45-e90d-45db-84ad-02bda0fec353}" />
 	<object class="MultibandEqEffect" id="{9adbe4f9-9fa2-4509-94c7-af6ccc789468}">
 		<property name="frequencyA">
-			<value>1925.62317</value>
+			<value>2418.53027</value>
 		</property>
 		<property name="qualityA">
-			<value>2.9028852</value>
+			<value>1.67180252</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{5c645708-6e12-49a1-bdbf-a5057b037254}</destination>
 		</relationship>
 	</object>
 	<object class="SFXReverbEffect" id="{f29a0b12-90b9-4292-af6f-d01602faf408}">
+		<property name="decayTime">
+			<value>2300</value>
+		</property>
 		<property name="earlyDelay">
 			<value>7</value>
 		</property>
@@ -266,7 +269,7 @@
 			<value>92</value>
 		</property>
 		<property name="wetLevel">
-			<value>7</value>
+			<value>0</value>
 		</property>
 	</object>
 	<object class="RandomizerModulator" id="{5c645708-6e12-49a1-bdbf-a5057b037254}">

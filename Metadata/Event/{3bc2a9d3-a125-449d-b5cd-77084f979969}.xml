@@ -95,10 +95,10 @@
 	<object class="MixerBusPanner" id="{5a130bc6-27b9-4ed2-a7a8-a64883583791}" />
 	<object class="SingleSound" id="{38099ab9-e22c-4362-8d6f-57ccea67b34d}">
 		<property name="length">
-			<value>2.6311564625850341</value>
+			<value>3.1036465208830606</value>
 		</property>
 		<relationship name="fadeOutCurve">
-			<destination>{15cfdada-e8d2-43bd-a9f6-db081fbc1f47}</destination>
+			<destination>{6c399af1-f3c0-4945-b289-c9a1780c6fcb}</destination>
 		</relationship>
 		<relationship name="audioFile">
 			<destination>{efca5b8c-2c8c-4fc4-b3fa-74ed8eac87bc}</destination>
@@ -106,10 +106,10 @@
 	</object>
 	<object class="SingleSound" id="{4cbca388-502f-4663-859e-f44696750619}">
 		<property name="start">
-			<value>0.4724900582980267</value>
+			<value>0.83625678181879337</value>
 		</property>
 		<property name="length">
-			<value>2.6311564625850341</value>
+			<value>4.0220292289879644</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{85d9f759-3f45-4e16-bf01-33ecb8f632a6}</destination>
@@ -142,15 +142,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{e6564d00-4de6-45d9-85ea-a8a7d3a3b183}" />
 	<object class="MixerBusFader" id="{d0914f78-28a5-4fc9-a320-f7c78e725d0f}" />
-	<object class="FadeCurve" id="{15cfdada-e8d2-43bd-a9f6-db081fbc1f47}">
+	<object class="FadeCurve" id="{6c399af1-f3c0-4945-b289-c9a1780c6fcb}">
 		<relationship name="startPoint">
-			<destination>{1d6c0ec5-b6a8-4074-8d80-776731183db4}</destination>
+			<destination>{e6b3de79-acc0-4b2a-bde9-77304723dc79}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{4f0a58cd-de8b-46f3-ad8d-734163d9ba9a}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{4cbca388-502f-4663-859e-f44696750619}</destination>
+			<destination>{9140c2e2-42e3-46c5-bf65-dae58cfa80f7}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{85d9f759-3f45-4e16-bf01-33ecb8f632a6}">
@@ -159,9 +156,6 @@
 		</relationship>
 		<relationship name="endPoint">
 			<destination>{a7cd5431-65da-4650-9977-85b296e0aa8b}</destination>
-		</relationship>
-		<relationship name="relatedModule">
-			<destination>{38099ab9-e22c-4362-8d6f-57ccea67b34d}</destination>
 		</relationship>
 	</object>
 	<object class="FadeCurve" id="{88dd0188-38de-43c0-9e0d-1cc0e6de0c2d}">
@@ -176,25 +170,25 @@
 		<relationship name="effects">
 			<destination>{e365aa54-4e85-4bd6-9f07-47097f641924}</destination>
 			<destination>{a0d47f18-d6ba-4094-be79-5388cc3bd4b0}</destination>
-			<destination>{c1aedfe0-b711-4457-bb5b-0ff148b0da05}</destination>
+			<destination>{7df46b9e-7508-4100-bf78-cd38fbfd12b3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4790edec-648b-486c-bca1-d2762a6ee159}" />
 	<object class="MixerBusFader" id="{05396307-eb80-49e4-a724-16fb2cfa6f20}" />
-	<object class="AutomationPoint" id="{1d6c0ec5-b6a8-4074-8d80-776731183db4}">
+	<object class="AutomationPoint" id="{e6b3de79-acc0-4b2a-bde9-77304723dc79}">
 		<property name="position">
-			<value>0.4724900582980267</value>
+			<value>0.022328392236569433</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>-0.0351160616</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{4f0a58cd-de8b-46f3-ad8d-734163d9ba9a}">
+	<object class="AutomationPoint" id="{9140c2e2-42e3-46c5-bf65-dae58cfa80f7}">
 		<property name="position">
-			<value>2.6311564625850341</value>
+			<value>3.1036465208830606</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -202,7 +196,7 @@
 	</object>
 	<object class="AutomationPoint" id="{f4431916-b42c-4fd1-9db3-82cc1475b49b}">
 		<property name="position">
-			<value>0.4724900582980267</value>
+			<value>0.83625678181879337</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -213,7 +207,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a7cd5431-65da-4650-9977-85b296e0aa8b}">
 		<property name="position">
-			<value>2.6311564625850341</value>
+			<value>1.5826523771428258</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -221,18 +215,18 @@
 	</object>
 	<object class="AutomationPoint" id="{92322d16-2a63-4931-a626-7202468197f4}">
 		<property name="position">
-			<value>2.9624194399867627</value>
+			<value>1.5894678799323807</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>-1.00000048</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{1ed251b6-cb17-4729-b22c-571187cc90f2}">
 		<property name="position">
-			<value>3.1036465208830606</value>
+			<value>4.8582860108067418</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -240,24 +234,23 @@
 	</object>
 	<object class="SpatialiserEffect" id="{e365aa54-4e85-4bd6-9f07-47097f641924}" />
 	<object class="MixerBusFader" id="{a0d47f18-d6ba-4094-be79-5388cc3bd4b0}" />
-	<object class="SFXReverbEffect" id="{c1aedfe0-b711-4457-bb5b-0ff148b0da05}">
-		<property name="earlyDelay">
-			<value>7</value>
+	<object class="PitchShifterEffect" id="{7df46b9e-7508-4100-bf78-cd38fbfd12b3}">
+		<property name="pitch">
+			<value>0.909999967</value>
 		</property>
-		<property name="lateDelay">
-			<value>11</value>
+		<property name="overlap">
+			<value>1</value>
 		</property>
-		<property name="HFDecayRatio">
-			<value>59</value>
+		<relationship name="modulators">
+			<destination>{cc4b6f33-540f-42a6-8e05-5d774bfc6279}</destination>
+		</relationship>
+	</object>
+	<object class="RandomizerModulator" id="{cc4b6f33-540f-42a6-8e05-5d774bfc6279}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>pitch</value>
 		</property>
-		<property name="highCut">
-			<value>7800</value>
-		</property>
-		<property name="earlyLateMix">
-			<value>87</value>
-		</property>
-		<property name="wetLevel">
-			<value>-5.5</value>
+		<property name="amount">
+			<value>11.5</value>
 		</property>
 	</object>
 </objects>

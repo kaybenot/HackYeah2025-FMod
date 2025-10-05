@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{5e35a7ee-457b-4fba-8f51-a418366cd194}">
 		<property name="assetPath">
-			<value>rust.mp3</value>
+			<value>sfx/rust.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

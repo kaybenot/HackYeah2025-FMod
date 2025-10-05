@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{cb63dc36-c9dc-463b-9620-2969b4ab37eb}">
 		<property name="assetPath">
-			<value>d3.mp3</value>
+			<value>debil mowi/d3.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

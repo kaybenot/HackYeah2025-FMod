@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{de35ecd0-9dc8-449b-b20d-a04732be91e3}">
 		<property name="assetPath">
-			<value>175205__minigunfiend__scary-creaking-kno.wav</value>
+			<value>sfx/175205__minigunfiend__scary-creaking-kno.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

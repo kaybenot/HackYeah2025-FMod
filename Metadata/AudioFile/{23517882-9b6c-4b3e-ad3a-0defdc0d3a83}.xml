@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{23517882-9b6c-4b3e-ad3a-0defdc0d3a83}">
 		<property name="assetPath">
-			<value>Rotation,Metal,Crank,Gears,Scrape,Squeak (2).wav</value>
+			<value>sfx/Rotation,Metal,Crank,Gears,Scrape,Squeak (2).wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

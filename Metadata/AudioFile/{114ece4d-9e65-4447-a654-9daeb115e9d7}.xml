@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{114ece4d-9e65-4447-a654-9daeb115e9d7}">
 		<property name="assetPath">
-			<value>71698__soaper__footsteps-1.mp3.wav</value>
+			<value>steps/71698__soaper__footsteps-1.mp3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

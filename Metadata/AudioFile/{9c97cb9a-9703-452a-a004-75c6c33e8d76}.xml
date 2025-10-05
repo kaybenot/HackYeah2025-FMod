@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{9c97cb9a-9703-452a-a004-75c6c33e8d76}">
 		<property name="assetPath">
-			<value>dirthit5.mp3</value>
+			<value>sfx/dirthit5.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

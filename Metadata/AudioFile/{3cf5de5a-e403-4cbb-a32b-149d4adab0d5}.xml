@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{3cf5de5a-e403-4cbb-a32b-149d4adab0d5}">
 		<property name="assetPath">
-			<value>korba faster.mp3</value>
+			<value>sfx/korba faster.mp3</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>

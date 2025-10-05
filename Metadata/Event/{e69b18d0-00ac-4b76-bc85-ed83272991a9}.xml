@@ -8,7 +8,7 @@
 			<value>jupscare xd</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a69eb329-ef3d-4b87-be99-49e08dfdff46}</destination>
@@ -163,9 +163,17 @@
 			<destination>{2760ff76-be42-492f-833c-0e7df8e42a03}</destination>
 			<destination>{a37902b1-ac75-42c0-a88d-6a1bb92f7c4c}</destination>
 			<destination>{831aa7d8-6239-4dae-a60c-c639cc9bf240}</destination>
+			<destination>{2bf4bd31-a884-464c-a160-ded3a42e8f0c}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{586b5b09-4eec-49f4-b302-53725997973d}" />
+	<object class="MixerBusPanner" id="{586b5b09-4eec-49f4-b302-53725997973d}">
+		<property name="surroundPanDirection">
+			<value>-180</value>
+		</property>
+		<property name="surroundPanExtent">
+			<value>0</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{feced631-5a8d-41ec-bc52-e73c648bec9f}" />
 	<object class="AutomationPoint" id="{4ac36d03-8ec0-4fca-b4fa-f8729e8fee93}">
 		<property name="position">
@@ -232,4 +240,5 @@
 			<value>2</value>
 		</property>
 	</object>
+	<object class="SpatialiserEffect" id="{2bf4bd31-a884-464c-a160-ded3a42e8f0c}" />
 </objects>

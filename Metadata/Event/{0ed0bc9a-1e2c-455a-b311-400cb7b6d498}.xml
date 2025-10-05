@@ -112,7 +112,7 @@
 			<value>4000</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>10000</value>
+			<value>9500</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>0</value>
